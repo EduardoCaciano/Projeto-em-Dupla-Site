@@ -1,0 +1,275 @@
+/*LINK WIREFRAME: https://wireframe.cc/tmVGku*/
+*{
+    margin: 0px;
+    padding: 0px;
+    /*Trava o elemento para que não sofra mudanças de tamanho*/
+    box-sizing: border-box;
+}
+
+
+/*Classe para padronização do tamanho do conteudo de cada seção*/
+.conteudo{
+    width: 1300px;
+    /*Permite herdar o valor do elemento pai*/
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2{
+    width: 100%;
+    height: 50px;
+    background-color: #000000;  
+    font-family: verdana;
+    font-size: 1.3em;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    padding-top: 10px;
+}
+
+h2{
+    height: 40px;
+    font-size: 1.1em;
+    color: brown;
+}
+
+p{
+    width: inherit;
+    /*Altura minima do elemento p*/
+    min-height: 20px;
+    /*Permite que o elemento p aumente de forma automatica*/
+    height: auto;
+    /*Ajusta o estouro da caixa para não haver barra de rolagem*/
+    overflow: hidden;
+    
+    font-family: verdana;
+    font-size: 0.75em;
+    line-height: 1.5;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Seção do Menu */
+#containerMenu{
+    width: 100%;
+    height: 50px;
+    background-color: #000000;
+    position: fixed;
+    z-index: 3;
+}
+
+#logo{
+    width: 100px;
+    height: inherit;
+    background-color: beige;
+    float: left;
+}
+
+#menu{
+    width: 1000px;
+    height: inherit;
+    background-color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#redesSociais{
+    width: 180px;
+    height: inherit;
+    float: left;
+}
+
+#listMenu{
+    width: inherit;
+    height: inherit;
+}
+
+.menuItem{
+    width: 180px;
+    height: inherit;
+    color: rgb(255, 30, 225);
+    font-family: verdana;
+    font-size: 1.2em;
+    text-align: center;
+    float: left;
+    list-style: none;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.menuItem:hover{
+    background-color: #f0f0f0;
+    color: #f8f8f8;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+/*Seção Estude Conosco*/
+#containerEstudeConosco{
+    height: 400px;
+    width: 1300px;
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tituloEstudeConosco{
+    height: 100px;
+    width: 1300px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#tituloEstudeConosco h1{
+    color: black;
+    background-color: orange;
+}
+
+
+#textoEstudeConosco{
+    height: 200px;
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 45px;
+    background-color: aqua;
+    float: left;
+}
+
+#imagemEstudeConosco{
+    height: 250px;
+    width: 450px; 
+    background-color: blueviolet;
+    margin-left: 150px;
+    margin-top: 23px;
+    float: left;
+}
+
+
+/*Seção da Nossa Cultura de Aprendizado*/
+#containerNossaCulturaDeAprendizado{
+    height: 400px;
+    width: 1300px;
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tituloNossaCulturaDeAprendizado{
+    height: 100px;
+    width: 1300px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#tituloNossaCulturaDeAprendizado h1{
+    color: black;
+    background-color: orange;
+}
+
+#textoNossaCulturaDeAprendizado{
+    height: 200px;
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 45px;
+    background-color: aqua;
+    float: left;
+}
+
+#imagemNossaCulturaDeAprendizado{
+    height: 250px;
+    width: 450px; 
+    background-color: blueviolet;
+    margin-left: 150px;
+    margin-top: 23px;
+    float: left;
+}
+
+
+/*Seção Jovem Aprendiz*/
+#containerJovemAprendiz{
+    height: 500px;
+    width: 1300px;
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tituloJovemAprendiz{
+    height: 100px;
+    width: 1300px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#tituloJovemAprendiz h1{
+    color: black;
+    background-color: orange;
+}
+
+.blocoJovemAprendiz{
+    height: 200px;
+    width: 350px;
+    background-color: aqua;
+    margin-left: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Seção do Rodape*/
+#containerRodape{
+    width: 100%;
+    height: 250px;
+    background-color:rgb(207, 207, 203);
+}
+.rodape{
+    width:33%;
+    height: inherit;
+    background-color: rgb(207, 207, 203);
+    float: left;
+}
+#entreRodape{
+    height: inherit;
+    width:90%;
+    background-color: rgb(207, 207, 203);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
