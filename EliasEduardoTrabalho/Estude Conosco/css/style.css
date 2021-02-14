@@ -6,7 +6,9 @@
     box-sizing: border-box;
 }
 
-
+body{
+    background-color: black;
+}
 /*Classe para padronização do tamanho do conteudo de cada seção*/
 .conteudo{
     width: 1300px;
@@ -99,6 +101,7 @@ p{
     list-style: none;
     text-transform: uppercase;
     padding-top: 10px;
+    border-left: 1px solid #FF8300;
 }
 
 .menuItem:hover{
@@ -112,7 +115,7 @@ p{
 /*Seção Estude Conosco*/
 #containerEstudeConosco{
     height: 400px;
-    width: 1300px;
+    width: 100%;
     background-color: gray;
     margin-left: auto;
     margin-right: auto;
@@ -120,7 +123,7 @@ p{
 
 #tituloEstudeConosco{
     height: 100px;
-    width: 1300px;
+    width: 100%;
     text-align: center;
     padding-top: 50px;
 }
@@ -134,18 +137,18 @@ p{
 #textoEstudeConosco{
     height: 200px;
     width: 500px;
-    margin-left: 100px;
+    margin-left: 250px;
     margin-top: 45px;
-    background-color: aqua;
     float: left;
+    font-size: 1.3em;
 }
 
 #imagemEstudeConosco{
-    height: 250px;
-    width: 450px; 
+    height: 320px;
+    width: 550px; 
     background-color: blueviolet;
-    margin-left: 150px;
-    margin-top: 23px;
+    margin-left: 50px;
+    margin-top: 15px;
     float: left;
 }
 
@@ -153,7 +156,7 @@ p{
 /*Seção da Nossa Cultura de Aprendizado*/
 #containerNossaCulturaDeAprendizado{
     height: 400px;
-    width: 1300px;
+    width: 100%;
     background-color: gray;
     margin-left: auto;
     margin-right: auto;
@@ -161,7 +164,7 @@ p{
 
 #tituloNossaCulturaDeAprendizado{
     height: 100px;
-    width: 1300px;
+    width: 100%;
     text-align: center;
     padding-top: 50px;
 }
@@ -174,26 +177,26 @@ p{
 #textoNossaCulturaDeAprendizado{
     height: 200px;
     width: 500px;
-    margin-left: 100px;
+    margin-left: 250px;
     margin-top: 45px;
-    background-color: aqua;
     float: left;
+    font-size: 1.3em;
 }
 
 #imagemNossaCulturaDeAprendizado{
-    height: 250px;
-    width: 450px; 
+    height: 320px;
+    width: 550px; 
     background-color: blueviolet;
-    margin-left: 150px;
-    margin-top: 23px;
+    margin-left: 50px;
+    margin-top: 15px;
     float: left;
 }
 
 
 /*Seção Jovem Aprendiz*/
 #containerJovemAprendiz{
-    height: 500px;
-    width: 1300px;
+    height: 700px;
+    width: 100%;
     background-color: gray;
     margin-left: auto;
     margin-right: auto;
@@ -201,9 +204,9 @@ p{
 
 #tituloJovemAprendiz{
     height: 100px;
-    width: 1300px;
+    width: 100%;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 50px;  
 }
 
 #tituloJovemAprendiz h1{
@@ -212,44 +215,48 @@ p{
 }
 
 .blocoJovemAprendiz{
-    height: 200px;
-    width: 350px;
+    height: 550px;
+    width: 600px;
     background-color: aqua;
-    margin-left: 200px;
+    margin-left: 150px;
+    float: left;
+    margin-top: 30px;
 }
 
+.imagemBlocoJovemAprendiz{
+    height: 250px;
+    width: 490px;
+    background-color: chartreuse;
+    margin-left: 55px;
+    margin-top: 15px;
+}
 
+.textoBlocoJovemAprendiz{
+    height: 260px;
+    width: 600px;
+    background-color: crimson;
+    margin-top: 15px;
+}
 
+.textoBlocoJovemAprendiz p{
+    font-size: 0.9em;
+    text-align: justify;
+}
 
+/*Seção da Imagem*/
+#containerImagem{
+    width: 100%;
+    height: 600px;
+    background-color: deeppink;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#imagem{
+    width: 500px;
+    height: 200;
+    background-color: darkorange;
+}
 
 
 /*Seção do Rodape*/
