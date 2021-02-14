@@ -175,24 +175,126 @@ p{
     background-color: orange;
 }
 
+/*Seção do Rodape*/
 #containerRodape{
     width: 100%;
-    height: 250px;
+    height: 360px;
     background-color:rgb(207, 207, 203);
 }
-.rodape{
-    width:33%;
-    height: inherit;
-    background-color: rgb(207, 207, 203);
+
+#caixa{
+    width: 610px;
+    height: 360px;
     float: left;
+    margin-left: 25px;
 }
-#entreRodape{
-    height: inherit;
-    width:90%;
+
+#miniCaixa{
+    width: 300px;
+    height: 40px;
+    background-color: chocolate;
+}
+
+#miniCaixa h1{
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    font-size: 0.9em;
     background-color: rgb(207, 207, 203);
-    margin-right: auto;
-    margin-left: auto;
 }
+
+#textoCaixa{
+    width: 600px;
+    height: 180px;
+    margin-top: 5px;
+    margin-right: auto;
+}
+
+#textoCaixa p{
+    text-align: justify;
+    font-size: 0.9em;
+}
+
+#imagensCaixa{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: blueviolet;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#imagensCaixa2{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: blueviolet;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#imagensCaixa3{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: blueviolet;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#imagensCaixa4{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: blueviolet;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#caixa2{
+    width: 950px;
+    height: 360px;
+    float: left;
+    margin-left: 70px;
+    background-color: orange;
+}
+
+.blocoTitulosCaixa2{
+    width: 950px;
+    height: 40px;
+}
+
+.tituloCaixa2{
+    width: 200px;
+    height: 40px;
+    float: left;
+    margin-left: 100px;
+}
+
+.tituloCaixa2 h1{
+    width: 200px;
+    height: 40px;
+    background-color: orange;
+}
+
+.textosCaixa2{
+    width: 300px;
+    height: 280px;
+    margin-left: 10px;
+    float: left;
+    margin-top: 10px;
+}
+
+.textosCaixa2 p{
+    text-align: justify;
+    font-size: 0.9em;
+}
+
+
 
 
 

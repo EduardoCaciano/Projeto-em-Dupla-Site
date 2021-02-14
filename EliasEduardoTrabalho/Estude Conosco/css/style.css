@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: white;
 }
 /*Classe para padronização do tamanho do conteudo de cada seção*/
 .conteudo{
@@ -116,7 +116,6 @@ p{
 #containerEstudeConosco{
     height: 400px;
     width: 100%;
-    background-color: gray;
     margin-left: auto;
     margin-right: auto;
 }
@@ -146,7 +145,10 @@ p{
 #imagemEstudeConosco{
     height: 320px;
     width: 550px; 
-    background-color: blueviolet;
+    background-image: url(../imagem/online.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
     margin-left: 50px;
     margin-top: 15px;
     float: left;
@@ -157,7 +159,6 @@ p{
 #containerNossaCulturaDeAprendizado{
     height: 400px;
     width: 100%;
-    background-color: gray;
     margin-left: auto;
     margin-right: auto;
 }
@@ -187,6 +188,10 @@ p{
     height: 320px;
     width: 550px; 
     background-color: blueviolet;
+    background-image: url(../imagem/online.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
     margin-left: 50px;
     margin-top: 15px;
     float: left;
@@ -195,9 +200,8 @@ p{
 
 /*Seção Jovem Aprendiz*/
 #containerJovemAprendiz{
-    height: 700px;
+    height: 620px;
     width: 100%;
-    background-color: gray;
     margin-left: auto;
     margin-right: auto;
 }
@@ -205,8 +209,8 @@ p{
 #tituloJovemAprendiz{
     height: 100px;
     width: 100%;
-    text-align: center;
-    padding-top: 50px;  
+    text-align: center;  
+    margin-top: 50px;
 }
 
 #tituloJovemAprendiz h1{
@@ -217,24 +221,38 @@ p{
 .blocoJovemAprendiz{
     height: 550px;
     width: 600px;
-    background-color: aqua;
     margin-left: 150px;
     float: left;
-    margin-top: 30px;
+    margin-top: 70px;
 }
 
-.imagemBlocoJovemAprendiz{
+#imagemBlocoJovemAprendiz{
     height: 250px;
-    width: 490px;
+    width: 400px;
     background-color: chartreuse;
-    margin-left: 55px;
+    background-image: url(../imagem/jovembloco.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+#imagemBlocoJovemAprendiz2{
+    height: 250px;
+    width: 400px;
+    background-color: chartreuse;
+    background-image: url(../imagem/jovembloco2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: scroll;
+    margin-left: 100px;
     margin-top: 15px;
 }
 
 .textoBlocoJovemAprendiz{
     height: 260px;
     width: 600px;
-    background-color: crimson;
     margin-top: 15px;
 }
 
@@ -247,36 +265,136 @@ p{
 #containerImagem{
     width: 100%;
     height: 600px;
-    background-color: deeppink;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #imagem{
-    width: 500px;
-    height: 200;
-    background-color: darkorange;
+    width: 100%;
+    height: 600px;
+    background-image: url(../imagem/jovem.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -45px;
 }
 
 
 /*Seção do Rodape*/
 #containerRodape{
     width: 100%;
-    height: 250px;
+    height: 360px;
     background-color:rgb(207, 207, 203);
 }
-.rodape{
-    width:33%;
-    height: inherit;
-    background-color: rgb(207, 207, 203);
+
+#caixa{
+    width: 610px;
+    height: 360px;
     float: left;
+    margin-left: 25px;
 }
-#entreRodape{
-    height: inherit;
-    width:90%;
+
+#miniCaixa{
+    width: 300px;
+    height: 40px;
+    background-color: chocolate;
+}
+
+#miniCaixa h1{
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    font-size: 0.9em;
     background-color: rgb(207, 207, 203);
-    margin-right: auto;
-    margin-left: auto;
 }
 
+#textoCaixa{
+    width: 600px;
+    height: 180px;
+    margin-top: 5px;
+    margin-right: auto;
+}
 
+#textoCaixa p{
+    text-align: justify;
+    font-size: 0.9em;
+}
+
+#imagensCaixa{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: blueviolet;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#imagensCaixa2{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: blueviolet;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#imagensCaixa3{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: blueviolet;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#imagensCaixa4{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: blueviolet;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#caixa2{
+    width: 950px;
+    height: 360px;
+    float: left;
+    margin-left: 70px;
+    background-color: orange;
+}
+
+.blocoTitulosCaixa2{
+    width: 950px;
+    height: 40px;
+}
+
+.tituloCaixa2{
+    width: 200px;
+    height: 40px;
+    float: left;
+    margin-left: 100px;
+}
+
+.tituloCaixa2 h1{
+    width: 200px;
+    height: 40px;
+    background-color: orange;
+}
+
+.textosCaixa2{
+    width: 300px;
+    height: 280px;
+    margin-left: 10px;
+    float: left;
+    margin-top: 10px;
+}
+
+.textosCaixa2 p{
+    text-align: justify;
+    font-size: 0.9em;
+}

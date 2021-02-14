@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: white;
 }
 /*Classe para padronização do tamanho do conteudo de cada seção*/
 .conteudo{
@@ -116,7 +116,6 @@ p{
 #containerContatos{
     width: 100%;
     height: 600px;
-    background-color: blueviolet;
 }
 
 #tituloContatos{
@@ -142,14 +141,38 @@ p{
 .blocoRedeSociais{
     width: 500px;
     height: 140px;
-    background-color: blue;
     margin-top: 20px;
 }
 
-.imagemRedeSociais{
+#imagemRedeSociais{
     width: 140px;
     height: 140px;
-    background-color: aqua;
+    background-image: url(../imagem/facebook.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    border-radius: 100%;
+    float: left;
+}
+
+#imagemRedeSociais2{
+    width: 140px;
+    height: 140px;
+    background-image: url(../imagem/linkedin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    border-radius: 100%;
+    float: left;
+}
+
+#imagemRedeSociais3{
+    width: 140px;
+    height: 140px;
+    background-image: url(../imagem/email.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
     border-radius: 100%;
     float: left;
 }
@@ -164,24 +187,26 @@ p{
 .textoRedeSociais h2{
     height: 50px;
     font-size: 1.6em;
-    background-color: blue;
+    background-color: white;
 }
 
 #imagemContatos{
     width: 900px;
     height: 480px;
-    background-color: cornflowerblue;
+    background-image: url(../imagem/imagem.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
     float: left;
     margin-left: 70px;
     margin-top: 10px;
 }
 
 
-/*Seção da Empresa*/
+/*Seção da Localidade*/
 #containerLocalidade{
     width: 100%;
     height: 700px;
-    background-color: chartreuse;
 }
 
 #tituloLocalidade{
@@ -194,9 +219,15 @@ p{
 }
 
 #imagemLocalidade{
-    width: 100%px;
-    height: 700px;
-    background-color: cyan;
+    width: 90%;
+    height: 630px;
+    background-image: url(../imagem/mapa.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;;
 }
 
 
@@ -204,7 +235,6 @@ p{
 #containerEmpresa{
     width: 100%;
     height: 700px;
-    background-color: hotpink;
 }
 
 #tituloEmpresa{
@@ -217,23 +247,27 @@ p{
 }
 
 #imagemEmpresa{
-    width: 100%px;
-    height: 700px;
-    background-color: cornflowerblue;
+    width: 100%;
+    height: 100%;
+    background-image: url(../imagem/empresa.jpg);
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-attachment:scroll;
+    margin-top: 10px;
+    margin-left: 300px;
 }
 
 /*Seção Texto Empresa*/
 #containerTextoEmpresa{
     width: 100%;
     height: 350px;
-    background-color: darkred;
 }
 
 #textoDaEmpresa{
     width: 1300px;
     height: 100px;
     padding-left: 150px;
-    padding-top: 30px;
+    padding-top: 40px;
 }
 
 #textoDaEmpresa p{
@@ -242,49 +276,121 @@ p{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*Seção do Rodape*/
 #containerRodape{
     width: 100%;
-    height: 250px;
+    height: 360px;
     background-color:rgb(207, 207, 203);
 }
-.rodape{
-    width:33%;
-    height: inherit;
-    background-color: rgb(207, 207, 203);
+
+#caixa{
+    width: 610px;
+    height: 360px;
     float: left;
+    margin-left: 25px;
 }
-#entreRodape{
-    height: inherit;
-    width:90%;
+
+#miniCaixa{
+    width: 300px;
+    height: 40px;
+    background-color: chocolate;
+}
+
+#miniCaixa h1{
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    font-size: 0.9em;
     background-color: rgb(207, 207, 203);
+}
+
+#textoCaixa{
+    width: 600px;
+    height: 180px;
+    margin-top: 5px;
     margin-right: auto;
-    margin-left: auto;
+}
+
+#textoCaixa p{
+    text-align: justify;
+    font-size: 0.9em;
+}
+
+#imagensCaixa{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: blueviolet;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#imagensCaixa2{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: blueviolet;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#imagensCaixa3{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: blueviolet;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#imagensCaixa4{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: blueviolet;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#caixa2{
+    width: 950px;
+    height: 360px;
+    float: left;
+    margin-left: 70px;
+    background-color: orange;
+}
+
+.blocoTitulosCaixa2{
+    width: 950px;
+    height: 40px;
+}
+
+.tituloCaixa2{
+    width: 200px;
+    height: 40px;
+    float: left;
+    margin-left: 100px;
+}
+
+.tituloCaixa2 h1{
+    width: 200px;
+    height: 40px;
+    background-color: orange;
+}
+
+.textosCaixa2{
+    width: 300px;
+    height: 280px;
+    margin-left: 10px;
+    float: left;
+    margin-top: 10px;
+}
+
+.textosCaixa2 p{
+    text-align: justify;
+    font-size: 0.9em;
 }
