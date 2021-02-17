@@ -45,7 +45,7 @@ p{
     overflow: hidden;
     
     font-family: verdana;
-    font-size: 0.75em;
+    font-size: 1em;
     line-height: 1.5;
     padding-left: 20px;
     padding-right: 20px;
@@ -59,7 +59,7 @@ p{
     height: 50px;
     background-color: #000000;
     position: fixed;
-    z-index: 3;
+    z-index: 1;
 }
 
 #logo{
@@ -129,7 +129,7 @@ p{
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    background-color: aqua;
+    background-color: #f2f2ed;
 }
 
 
@@ -149,45 +149,45 @@ p{
 .blocoSistemas{
     height: 550px;
     width: 300px;
-    margin-left: 155px;
+    margin-left: 195px;
     float: left;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 #imagemBlocoSistemas{
-    height: 250px;
+    height: 140px;
     width: 250px;
-    background-color: chartreuse;
-    background-image: url(../imagem/jovembloco.jpg);
+    background-color: lemonchiffon;
+    background-image: url(../imagens/html.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:contain;
     background-attachment: scroll;
     margin-left: 100px;
-    margin-top: 15px;
+    margin-top: 100px;
 }
 
 #imagemBlocoSistemas2{
-    height: 250px;
+    height: 140px;
     width: 250px;
     background-color: chartreuse;
-    background-image: url(../imagem/jovembloco2.jpg);
+    background-image: url(../imagens/images.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-attachment: scroll;
     margin-left: 100px;
-    margin-top: 15px;
+    margin-top: 100px;
 }
 
 #imagemBlocoSistemas3{
-    height: 250px;
+    height: 140px;
     width: 250px;
     background-color: chartreuse;
-    background-image: url(../imagem/jovembloco2.jpg);
+    background-image: url(../imagens/javascript-1280x720.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     background-attachment: scroll;
     margin-left: 100px;
-    margin-top: 15px;
+    margin-top: 100px;
 }
 
 
@@ -226,6 +226,7 @@ p{
 #textoOque{
     height: 150px;
     width: 100%;
+    background-color: #f2f2ed;
 }
 
 #textoOque p{
@@ -240,7 +241,7 @@ p{
 #containerAulas{
     width: 100%;
     height: 1040px;
-    background-color: gold;
+    background-color: #f2f2ed;
 }
 
 #tituloAulas{
@@ -261,7 +262,7 @@ p{
     height: 300px;
     background-color: deeppink;
     margin-top: 25px;
-    margin-left: 50px;
+    margin-left: 170px;
 }
 
 #videosAula{
@@ -290,20 +291,22 @@ p{
     height: 300px;
     background-color: aliceblue;
     margin-left: 300px;
+    background-color: #f2f2ed;
 }
 
 /*Seção do Rodape*/
 #containerRodape{
     width: 100%;
-    height: 360px;
+    height: 345px;
     background-color:rgb(207, 207, 203);
+    padding-bottom: 150px;
 }
 
 #caixa{
     width: 610px;
-    height: 360px;
+    height: 345px;
     float: left;
-    margin-left: 25px;
+    margin-left: 100px;
 }
 
 #miniCaixa{
@@ -374,10 +377,10 @@ p{
 
 #caixa2{
     width: 950px;
-    height: 360px;
+    height: 340px;
     float: left;
     margin-left: 70px;
-    background-color: orange;
+    background-color: rgb(207, 207, 203);
 }
 
 .blocoTitulosCaixa2{
@@ -392,10 +395,11 @@ p{
     margin-left: 100px;
 }
 
+
 .tituloCaixa2 h1{
     width: 200px;
     height: 40px;
-    background-color: orange;
+    background-color: rgb(207, 207, 203);
 }
 
 .textosCaixa2{
@@ -406,7 +410,12 @@ p{
     margin-top: 10px;
 }
 
-.textosCaixa2 p{
-    text-align: justify;
-    font-size: 0.9em;
+#lista{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(207, 207, 203);
+    list-style: none;
+    text-align: center;
+    font-size: 1.3em;
+    padding-left: 90px;
 }
